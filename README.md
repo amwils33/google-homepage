@@ -1,0 +1,1 @@
+This is my first project on The Odin Project. The goal is to replicate the default Google Homepage.

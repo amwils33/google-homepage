@@ -1,5 +1,33 @@
 .center{
     display: block;
     margin: 0 auto;
+    padding: 10px;
+}
+
+#box-container{
+    display: flex;
+    background: gray;
+    height: 100px;
+}
+
+#box-1{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    height: 50%;
+    background-color: orange;
+    
+
+}
+
+#box-2{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: 50%;
+    background-color: green;
+    
+    
+    
 }
 

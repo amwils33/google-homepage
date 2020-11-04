@@ -1,13 +1,35 @@
+a{
+    font-family: arial;
+    font-size: 13px;
+    opacity: 0.75;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover{
+    text-decoration: underline
+}
+
 .center{
     display: block;
     margin: 0 auto;
     padding: 10px;
 }
 
+.gridlogo{
+    height: 30px;
+    width: 30px;
+    vertical-align: top;
+}
+
+.profilelogo{
+    border-radius: 50%;
+}
+
 #box-container{
-    display: flex;
-    background: gray;
-    height: 100px;
+    display: flex; 
+    width: 100%;
 }
 
 #box-1{
@@ -15,9 +37,6 @@
     justify-content: flex-start;
     width: 50%;
     height: 50%;
-    background-color: orange;
-    
-
 }
 
 #box-2{
@@ -25,9 +44,27 @@
     justify-content: flex-end;
     width: 50%;
     height: 50%;
-    background-color: green;
-    
-    
-    
 }
+
+#box-container2{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#box-3{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    height: 50%;
+}
+#box-4{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: 50%;
+}
+
+
 
